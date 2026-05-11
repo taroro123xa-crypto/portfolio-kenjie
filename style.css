@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #D8D0CE;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: aliceblue;
+}
+/* NAVBAR */
+nav{
+    width: 100%;
+    background: #AEA7A6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* LOGO */
+.logo{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.logo span{
+    color: red;
+}
+
+/* MENU */
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+/* LINKS */
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    background: white;
+    color: #1f4037;
+    padding: 6px 12px;
+    border-radius: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px){
+
+    nav{
+        padding: 12px 20px;
+    }
+
+    .logo{
+        font-size: 22px;
+    }
+
+    nav ul{
+        gap: 10px;
+    }
+
+    nav ul li a{
+        font-size: 11px;
+    }
+}
+
+/* EXTRA SMALL DEVICES */
+@media (max-width: 480px){
+
+    nav{
+        padding: 10px;
+    }
+
+    .logo{
+        font-size: 18px;
+    }
+
+    nav ul{
+        gap: 6px;
+    }
+
+    nav ul li a{
+        font-size: 9px;
+    }
+}
+
+.head{
+    height: 100px;
+    background: saddlebrown;
+    color:white;
+}
+
+.card {
+    max-width: 800px;
+    margin: 60px auto;
+    background: rgba(0,0,0,0.6);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: 80px auto;
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    
+
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 30px;
+
+}       
+
+h2 {
+    margin-top: 30ox;
+    margin-bottom: 10px;
+    margin-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+
+h3 {
+    margin-top: 20px;
+
+}
+
+ul {
+    margin-left:20px ;
+    margin-top:10px;
+
+}
+
+li {
+    margin-bottom:6px;
+
+}
+
+.section {
+    margin-bottom: 15px;
+
+}
+
+
+.center {
+
+    text-align: center;
+}
+
+.home img{
+    border-radius: 1000px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+#h1{
+
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: rgb(43, 7, 7);
+    padding-top: 30px;
+}
+
+.about{
+    padding: 10px;
+}
+
+section{
+    scroll-margin-top: 100px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.digital{
+    color:  rgb(0, 0, 0);
+    font-weight: bolder;
+    text-align: center;
+}
+.design h1{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;    
+}
+
+@media(max-width: 768px){
+    nav{
+        flex-direction: column;
+    }
+}
+
+.contact img{
+    border-radius: 1000px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+footer{
+    text-align: center;
+    padding: 15px;
+    background: rgba(0,0,0,0.2);
+}
+
+form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background: rgba(0,0,0,0.25);
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  width: 350px;
+  margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+}
+
+input {
+  background: #D8D0CE;
+}
+
+textarea {
+  background: #AEA7A6;
+  height: 100px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
